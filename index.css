@@ -1,0 +1,204 @@
+/* General */
+:root {
+  --primary: #42b7db;
+  --dark: rgb(11, 39, 77);
+  --grey: rgb(80, 79, 79);
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 1.5rem;
+  color: rgb(27, 27, 27);
+}
+ul {
+  list-style: square;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+a:hover {
+  color: var(--dark);
+}
+h1 {
+  margin: auto;
+}
+
+h2 {
+  margin-top: 3rem;
+  font-weight: 800;
+}
+
+h4 {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+h5 {
+  font-style: italic;
+  font-weight: 200;
+  color: var(--primary);
+}
+
+h6 {
+  margin-top: 2.5rem;
+}
+
+.highlight {
+  background-color: #ffd78d5d;
+}
+
+/* Navbar */
+.navbar-nav {
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+/* Content */
+
+.container-elements {
+  width: 70%;
+  margin: auto;
+}
+/* Header */
+.element-header {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-description {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--primary);
+  width: 50%;
+  margin: 1.25rem auto;
+  text-align: center;
+}
+
+.outdoor {
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Pesquisa */
+.content {
+  width: 90%;
+  margin: auto;
+}
+
+.step1 {
+  width: 100%;
+  margin: 5rem auto 2rem auto;
+}
+
+.pesquisa-motivos {
+  gap: 2rem;
+}
+
+.motivo-sair {
+  flex: 50%;
+}
+
+.motivo-ficar {
+  flex: 50%;
+}
+
+.number-list {
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: var(--primary);
+  font-weight: 200;
+}
+
+.necessidades {
+  font-size: 1.1rem;
+}
+/* Ideação */
+.strike {
+  text-decoration: line-through;
+}
+
+.brainstorm-imgs {
+  justify-content: space-between;
+}
+
+.moodboard {
+  width: 60%;
+}
+
+.sketching {
+  width: 30%;
+}
+
+.indent {
+  padding-left: 3rem;
+}
+
+.tagline {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.quotes {
+  font-family: "Montagu Slab", serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.quotes-bottom {
+  padding-top: 2rem;
+}
+
+.colors {
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+.fira {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+.lobster {
+  font-family: "Lobster", serif;
+  font-size: 3rem;
+}
+
+.logo {
+  width: 30%;
+}
+
+.keyvisual {
+  width: 40%;
+}
+
+.keyvisual-text {
+  margin-top: 3rem;
+  width: 50%;
+}
+
+.outdoor-imgs {
+  margin: 3rem auto;
+}
+
+.billboard {
+  width: 55%;
+  height: max-content;
+}
+
+.footer-links {
+  list-style: none;
+  gap: 2rem;
+}
