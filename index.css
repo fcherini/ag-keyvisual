@@ -286,11 +286,11 @@ h6 {
   }
 
   .pesquisa-motivos,
-  .brainstorm-imgs,
-  .key-visual {
+  .brainstorm-imgs {
     flex-direction: column;
   }
 
+  .key-visual,
   .outdoor-imgs {
     flex-direction: column-reverse;
   }
@@ -307,5 +307,8 @@ h6 {
   }
   .logo {
     width: 80%;
+  }
+  .billboard {
+    margin-bottom: 2rem;
   }
 }
