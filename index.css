@@ -305,4 +305,7 @@ h6 {
   .billboard {
     width: 95%;
   }
+  .logo {
+    width: 80%;
+  }
 }
