@@ -55,11 +55,12 @@ h6 {
   gap: 2rem;
 }
 
-.nav-link {
+.nav-link,
+.navbar-brand,
+.navbar-toggler {
   color: #000;
 }
-
-.navbar-brand {
+.navbar-toggler a {
   color: #000;
 }
 
@@ -267,28 +268,31 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  .container-elements {
+  .container-elements,
+  .content {
     width: 90vw;
   }
   .header-description {
     width: 85vw;
   }
 
-  .outdoor {
-    max-width: 99vw;
-  }
-  .content {
-    width: 90vw;
-    margin: auto;
-  }
+  .outdoor,
   .step1 {
-    width: 100vw;
+    width: 95%;
   }
+
+  .indent {
+    padding-left: 0;
+  }
+
   .pesquisa-motivos,
   .brainstorm-imgs,
-  .key-visual,
-  .outdoor-imgs {
+  .key-visual {
     flex-direction: column;
+  }
+
+  .outdoor-imgs {
+    flex-direction: column-reverse;
   }
 
   .motivo-sair,
@@ -299,6 +303,6 @@ h6 {
   .keyvisual-text,
   .keyvisual,
   .billboard {
-    width: 100%;
+    width: 95%;
   }
 }
