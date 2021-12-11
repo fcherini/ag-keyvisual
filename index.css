@@ -267,9 +267,11 @@ h6 {
 }
 
 @media (max-width: 576px) {
-  .container-elements,
+  .container-elements {
+    width: 90vw;
+  }
   .header-description {
-    width: 95vw;
+    width: 85vw;
   }
 
   .outdoor {
