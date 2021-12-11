@@ -69,6 +69,12 @@ h6 {
   width: 70%;
   margin: auto;
 }
+
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95%;
+  }
+}
 /* Header */
 .element-header {
   margin-top: 2rem;
@@ -86,10 +92,30 @@ h6 {
   margin: 1.25rem auto;
   text-align: center;
 }
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95vw;
+  }
+  .header-description {
+    width: 80vw;
+  }
+}
 
 .outdoor {
   max-width: 100%;
   margin: auto;
+}
+
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95vw;
+  }
+  .header-description {
+    width: 80vw;
+  }
+  .outdoor {
+    max-width: 99vw;
+  }
 }
 
 /* Pesquisa */
@@ -98,9 +124,46 @@ h6 {
   margin: auto;
 }
 
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95vw;
+  }
+  .header-description {
+    width: 80vw;
+  }
+  .outdoor {
+    max-width: 99vw;
+  }
+  .content {
+    width: 90vw;
+    margin: auto;
+  }
+}
+
 .step1 {
   width: 100%;
   margin: 5rem auto 2rem auto;
+}
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95vw;
+  }
+  .header-description {
+    width: 80vw;
+  }
+  .outdoor {
+    max-width: 99vw;
+  }
+  .content {
+    width: 90vw;
+    margin: auto;
+  }
+  .step1 {
+    width: 100vw;
+  }
+  .pesquisa-motivos {
+    flex-direction: column;
+  }
 }
 
 .pesquisa-motivos {
@@ -201,4 +264,40 @@ h6 {
 .footer-links {
   list-style: none;
   gap: 2rem;
+}
+
+@media (max-width: 576px) {
+  .container-elements {
+    width: 95vw;
+  }
+  .header-description {
+    width: 80vw;
+  }
+  .outdoor {
+    max-width: 99vw;
+  }
+  .content {
+    width: 90vw;
+    margin: auto;
+  }
+  .step1 {
+    width: 100vw;
+  }
+  .pesquisa-motivos,
+  .brainstorm-imgs,
+  .key-visual,
+  .outdoor-imgs {
+    flex-direction: column;
+  }
+
+  .motivo-sair,
+  .motivo-ficar,
+  .moodboard,
+  .sketching,
+  .colors,
+  .keyvisual-text,
+  .keyvisual,
+  .billboard {
+    width: 100%;
+  }
 }
